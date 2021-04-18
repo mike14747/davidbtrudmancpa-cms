@@ -6,6 +6,7 @@ export default {
         {
             name: 'name',
             title: 'Webpage',
+            description: 'DO NOT EDIT THIS FIELD OR THE CONTENT WILL NOT GET TO THE WEBSITE!!!',
             type: 'string',
         },
         {
