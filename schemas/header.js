@@ -7,11 +7,13 @@ export default {
             name: 'logoText',
             title: 'Main logo text',
             type: 'string',
+            validation: Rule => Rule.max(25),
         },
         {
             name: 'motto',
             title: 'Motto text',
             type: 'string',
+            validation: Rule => Rule.max(50),
         },
         {
             name: 'profileImage',
