@@ -4,6 +4,13 @@ export default {
     type: 'document',
     fields: [
         {
+            name: 'contact',
+            title: 'contact',
+            description: 'Contact info for the contact page.',
+            type: 'string',
+            validation: Rule => Rule.required().min(6).max(40),
+        },
+        {
             name: 'email',
             title: 'Email',
             description: 'This is the email address that will show up on the contact page.',
